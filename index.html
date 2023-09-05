@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para Mi Amorcito</title>
+    <!-- Agregar enlace a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('fondo_corazones.jpg'); /* Cambia 'fondo_corazones.jpg' por la URL de tu imagen de fondo */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: pink; 
+        }
+        .imagen-izquierda {
+            position: absolute;
+            left: 0;
+            height: auto;
+            
+        }
+        @media (max-width: 768px) {
+            .imagen-izquierda {
+                margin-top: 50%;
+                width: 100;
+                max-width: 50%; /* Cambia el porcentaje según el tamaño deseado */
+                height: auto;
+                opacity: 0.7;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5 ml-0 pl-0 imagen-izquierda">
+            <img src="tu_imagen_izquierda.png" alt="Imagen a la izquierda" class="img-fluid">
+        </div>´
+        <div class="col-md-5 offset-md-3 text-center">
+        <!--<div class="col-md-6 text-center">-->
+            <img src="mi amor 2.png" alt="Imagen para mi amorcito" class="img-fluid rounded-circle mb-4">
+            <h1>¡Para Mi Amorcito!</h1>
+            <p>Esta es una página web especialmente creada solo para ti mi amorcito, mi hermosa Nathalia.</p>
+            <a href="quieres.html" class="btn btn-danger">Siguiente</a>
+        </div>
+    </div>
+</div>
+
+<!-- Agregar enlace a los archivos JavaScript de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piénsalo un poco</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('fondo_corazones.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .btn-ugly {
+            background-color: #48402b;
+            /* Cambia el color a uno que consideres "feo" */
+            color: white;
+            /* Cambia el color del texto para que sea legible */
+            border-color: darkred;
+            /* Cambia el color del borde si lo deseas */
+        }
+
+        .imagen-izquierda {
+            position: absolute;
+            margin-top: 15%;
+            left: 0;
+            height: auto;
+            max-width: 450px;
+
+        }
+
+        @media (max-width: 768px) {
+            .imagen-izquierda {
+                margin-top: 50%;
+                width: 100;
+                max-width: 50%;
+                /* Cambia el porcentaje según el tamaño deseado */
+                height: auto;
+                opacity: 0.7;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-md-4 ml-0 pl-0 imagen-izquierda">
+                <img src="corazon.png" alt="Imagen a la izquierda" class="img-fluid">
+            </div>
+            <div class="col-md-5 offset-md-3 text-center">
+                <p>se que soy insistente y molesto pero...</p>
+                <h1>te amo con cada fribra de mi,me muero por tener algo contigo:</h1>
+                <img src="quieres.png" alt="Regalo" class="img-fluid mb-4" style="max-width: 450px;">
+                <form method="POST" action="procesar.php">
+                    <a href="gracias.html" class="btn btn-danger">si</a>
+                    <a href="mensaje3.html" class="btn btn-ugly">no</a>
+                </form>
+                <p>te amo de tal manera que un te amo no basta, no es sufiente, no alcanza para todo lo que siento por ti, por eso te lo repito tanto
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
